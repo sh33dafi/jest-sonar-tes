@@ -1,0 +1,18 @@
+<testExecutions version="1">
+<file path="__test__/test.js">
+<testCase name="description this is a success" duration="2" />
+<testCase name="description this is a failure" duration="0" />
+<testCase name="Completely skipped suite some test" duration="0">
+<skipped message="Completely skipped suite some test"/>
+</testCase>
+<testCase name="Completely skipped suite this is a success" duration="0">
+<skipped message="Completely skipped suite this is a success"/>
+</testCase>
+<testCase name="Completely skipped suite this is a failure" duration="0">
+<skipped message="Completely skipped suite this is a failure"/>
+</testCase>
+<testCase name="Completely skipped suite sub test success" duration="0">
+<skipped message="Completely skipped suite sub test success"/>
+</testCase>
+</file>
+</testExecutions>
